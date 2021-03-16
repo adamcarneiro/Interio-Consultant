@@ -13,11 +13,11 @@ body{
     background: #181719;
 
 }
-/* .container{
+.container{
     /* background: #181719; */
-    /* width: 1440px;
-    height: 1080px; *
-} */
+    /* width: 1440px; */
+    height: 820px; 
+}
 
 header{
     display: flex;
@@ -53,17 +53,19 @@ header{
 
 .nav-item{
     text-decoration:none ;
-    /* margin-left: 50px ; */
-    padding: 30px;
+    margin-left: 20px ;
+    margin-right: 30px;
+    padding: 0px;
     color: white;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     /* font-size: 18px; */
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     line-height: 22px;
     /* identical to box height */
+    letter-spacing: 2px;
 
 
     color: #FFFFFF;
@@ -71,6 +73,8 @@ header{
 
 #home-buttom{
     font-weight: 700;
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
 }
 
 /**CONTENT or MAIN*/
@@ -103,8 +107,9 @@ header{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 1.39em;
+    /* line-height: 29px; */
+    line-height: 1.5em;
 
     color: #FFFFFF;
 
@@ -115,10 +120,103 @@ header{
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 0.98rem;
     line-height: 22px;
     /* identical to box height */
 
     margin-top: 30px;
     color: #FFFFFF;
+}
+
+
+/*Right Side*/
+.right-side{
+    min-width: 20vw;
+    min-height: 10vh;
+    width: 101vh;
+    height: 65vh;
+}
+
+.top-foto{
+    width: 51.4vw;
+    height: 65vh;
+}
+
+.bottom-side{
+    position: absolute;
+    width: 400px;
+    height: 169px;
+    background: #181719;
+    /* display: flex; */
+
+    top: 585px;
+    left: 852px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bottom-side-top{
+    display: flex;
+    margin: 15px 0 0 20px;
+}
+
+#buttom-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+
+.designer-info{
+    display: block;
+    margin: 5px 0 0 20px;
+}
+
+.name-designer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.function-designer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+}
+
+.developed-by{
+    margin:15px 0 0 20px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+footer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A9A9A9;
+    margin-bottom: 15px;
+
+
+
 }
