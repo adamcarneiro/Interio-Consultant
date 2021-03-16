@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+
+body{
+    background: #181719;
+
+}
+/* .container{
+    /* background: #181719; */
+    /* width: 1440px;
+    height: 1080px; *
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 3rem 0 0 5rem;
+}
+
+.logo{
+    padding: 8px;
+    /* margin: 3rem 0 0 6rem; */
+    border: 1px solid white;
+
+}
+
+.logo >p{
+    font-size: 0.9em;
+    font-family: Crimson Pro;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.nav-container{
+    /* background-color: yellow; */
+    margin-right: 30px;
+    padding: 8px;
+}
+
+.nav-item{
+    text-decoration:none ;
+    /* margin-left: 50px ; */
+    padding: 30px;
+    color: white;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 18px; */
+    font-size: 1.2rem;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#home-buttom{
+    font-weight: 700;
+}
+
+/**CONTENT or MAIN*/
+
+.content{
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.left-side{
+    width: 500px;
+    height: 600px;
+    /* background-color: rgb(48, 13, 146); */
+    padding-top: 100px;
+}
+
+.content-title{
+    
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+}
+
+.content-info{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    margin-top: 30px;
+}
+
+.read-more{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    margin-top: 30px;
+    color: #FFFFFF;
+}
