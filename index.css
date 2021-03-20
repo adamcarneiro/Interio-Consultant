@@ -216,7 +216,19 @@ footer{
 
     color: #A9A9A9;
     margin-bottom: 15px;
+}
 
+/* .material-icons{
+    color: white;
+    font-size: 30rem;
+} */
 
+.material-icons.md-36 { 
+    font-size: 36px; 
+    color: rgba(255, 255, 255, 1);
 
+    position: absolute;
+    /* top: 83.1%; */
+    top: 578px;
+    left: 13%;
 }
