@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://imgur.com/a/ardpuKy)
+![screenshot](web.png)
 
 It is my 3rd project from devChallenge to front-end.
 
