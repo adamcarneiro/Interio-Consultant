@@ -152,7 +152,6 @@ header{
     width: 101vh;
     height: 65vh;
     margin-left: 4rem;
-    background-color: yellowgreen;
 }
 
 .top-foto{
@@ -172,8 +171,8 @@ header{
     background: #181719;
     /* display: flex; */
 
-    top: 610px;
-    left: 980px;
+    top: 580px;
+    left: 910px;
 
     border-radius: 3px;
 
@@ -255,8 +254,13 @@ footer{
 #arrow{
     position: absolute;
     /* top: 83.1%; */
-    top: 516px;
-    left: 208px;
+    top: 518px;
+    left: 190px;
+}
+
+#menu{
+    display: none;
+    border: none;
 }
 
 
@@ -272,9 +276,9 @@ footer{
     }
 
     .container{
-        background-color: crimson;
         width: 100vw;
-        height: 100%;
+        height: 90vh;
+
     
     }
 
@@ -283,6 +287,7 @@ footer{
         font-size: 26px;
         justify-content: center;
         align-items: center;
+        border: none;
     }
 
     .logo{
@@ -292,7 +297,6 @@ footer{
 
     .content{
         display: block;
-        background-color: cadetblue;
         margin: 0;
         width: 100vw;
     }
@@ -330,11 +334,46 @@ footer{
         display: block;
         margin: 0px;
         width: 100vw;
+        padding: 8px;
     }
+
 
     .top-foto{
-        width: 350px;
-        height: 300px;
+        width: 100%;
+        height: 50%;
     }
 
+    .bottom-side{
+        margin: 0;
+        /* left: 50px; */
+        left: 25.125vw;
+        top: 69vh;
+        width: 66vw;
+        height: 16vh;
+
+        padding: 8px;
+    }
+
+    .bottom-side-top{
+        margin: 0;
+    }
+
+    #buttom-photo{
+        width: 12%;
+        height: 10%;
+    }
+
+    .designer-info p{
+        font-size: 3vw;
+    }
+
+    .designer-info{
+        margin-left: 6px;
+    }
+
+    .developed-by{
+        margin: 8px 0 0 0;
+        font-size: 3.4vw;
+        line-height: 20px;
+    }
 }
